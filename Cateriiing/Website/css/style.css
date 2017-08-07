@@ -1,0 +1,74 @@
+#intro {
+	background           : #222 url("../images/main-background.jpg") no-repeat fixed 50% 50% / cover;
+	min-height           : calc(100vh - 60px);
+	position             : relative;
+	text-align           : center;
+	display              : -webkit-box;
+	display              : -ms-flexbox;
+	display              : flex;
+	-webkit-box-orient   : vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction   : column;
+	flex-direction       : column;
+	-webkit-box-pack     : center;
+	-ms-flex-pack        : center;
+	justify-content      : center;
+	padding              : 30px 24px;
+	-webkit-box-align    : center;
+	-ms-flex-align       : center;
+	align-items          : center;
+}
+#intro .input-group {
+	width  : 456px;
+	display: flex;
+}
+#intro .input-group .form-control,
+#intro .input-group-btn > .btn {
+	height: 50px;
+}
+#intro .input-group .form-control {
+	border-top-left-radius   : 0;
+	border-bottom-left-radius: 0;
+	border                   : 1px solid #ff6666;
+	padding-left             : 48px;
+	outline                  : none;
+}
+#intro .input-group-btn > .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#intro .input-group .form-control::-webkit-input-placeholder {
+  color: #999;
+}
+#intro .input-group .form-control::-moz-placeholder {
+  color: #999;
+}
+#intro .input-group .form-control:-ms-input-placeholder {
+  color: #999;
+}
+#intro .input-group .form-control:-moz-placeholder {
+  color: #999;
+}
+#intro .input-group .form-control:hover,
+#intro .input-group .form-control:focus,
+#intro .input-group .form-control:active {
+	outline           : none;
+	-webkit-box-shadow: none;
+	box-shadow        : none;
+}
+#intro .input-group:before {
+	position        : absolute;
+	content         : "";
+	top             : 9px;
+	left            : 9px;
+	background-image: url("../images/location-icon.png");
+	width           : 32px;
+	height          : 32px;
+	z-index         : 5;
+}
+#intro .btn-default {
+	background-color: #ff6666;
+	color           : #fff;
+	border-color    : #ff6666;
+	outline         : none
+}
