@@ -1,0 +1,262 @@
+body {
+  font-size: 12px !important;
+  font-family: "futura-pt", sans-serif !important;
+  font-style: normal;
+  letter-spacing: .5px;
+  color: #000;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+  color: #e4af31 !important;
+}
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+a:hover .header-logo {
+  opacity: 1;
+}
+.hide-in-desktop {
+  display: none !important;
+} 
+.hide-in-mobile {
+  display: block !important;
+}
+.dropdown-menu,
+.dropdown-menu li a {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+header,
+section {
+  border-bottom: 1px solid #000;
+}
+.top-header {
+  height: 30px;
+  background: url(../images/top-header-bg.png) 0 -40px repeat-x;
+}
+.top-header > .row > div {
+  clear: both;
+}
+.top-header .row div img,
+.top-header .row div span {
+  float: left;
+}
+.top-header .row div span {
+  line-height: 30px;
+  padding-left: 5px;
+  color: #fff;
+}
+.header {
+  padding: 25px 0;
+}
+.header .btn-default.active.focus,
+.header .btn-default.active:focus,
+.header .btn-default.active:hover, .btn-default:active.focus,
+.header .btn-default:active:focus, .btn-default:active:hover,
+.header .open>.dropdown-toggle.btn-default.focus,
+.header .open>.dropdown-toggle.btn-default:focus,
+.header .open>.dropdown-toggle.btn-default:hover,
+.header .open>.dropdown-toggle.btn-default {
+  outline: none;
+  background-color: #f9fafa;
+  border-color: none;
+}
+.header .btn.active,
+.header .btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.header .searchbar {
+  margin-top: 18px;
+}
+.header .searchbar div:first-child {
+  padding-right: 0;
+}
+
+.header .searchbar div:nth-child(2) {
+  padding-right: 0;
+  padding-left: 0;
+}
+.header .searchbar div:nth-child(3) {
+  padding-left: 0;
+}
+.header .searchbar div .dropdown button,
+.header .searchbar div input[type="search"] {
+  border: 1px solid #000;
+}
+.header .searchbar div .dropdown button {
+  width: 100%;
+  border-radius: 0;
+  background-color: #f9fafa;
+  text-align: left;
+}
+.header .searchbar div .dropdown button .caret {
+  border-top: none;
+  background-image: url(../images/search-category-icon.png);
+  width: 8px;
+  height: 5px;
+  border: none;
+  margin: 0 4px;
+  position: absolute;
+  top: 16px;
+  right: 8px;
+}
+.header .searchbar div .dropdown-menu {
+  top: 31px;
+  border-radius: 0;
+}
+.header .searchbar div .input-search:before {
+  position: absolute;
+  content: "";
+  background: url(../images/search-icon.png);
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 9px;
+}
+.header .searchbar div .input-search input[type="search"] {
+  width: 100%;
+  height: 34px;
+  margin-left: -1px;
+  padding-left: 35px;
+}
+.header .searchbar div button[type="submit"] {
+  width: 100%;
+  height: 34px;
+  background-color: #00447c;
+  color: #fff;
+  border: none;
+  margin-left: -1px;
+  line-height: initial;
+}
+.navbar-nav>li .dropdown-menu {
+  position: absolute;
+  top: 20px;
+  left: -168px;
+  border-radius: 0;
+  width: 1142px;
+}
+.navbar-nav>li:hover .dropdown-menu {
+  display: block;
+}
+.navbar-nav>li .dropdown-menu .container {
+  width: 1000px;
+  padding: 20px 0;
+}
+.navbar-nav>li .dropdown-menu .container ul:nth-child(2) {
+  margin-top: 16px;
+}
+.navbar-nav>li .dropdown-menu .container ul li {
+  line-height: 1.5;
+}
+.navbar-nav>li .dropdown-menu .container ul li h1 {
+  margin: 3px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.navbar-nav>li .dropdown-menu .container ul li a {
+  color: #4d4d4d;
+}
+.header .header-right-block {
+  margin-top: 19px;
+  clear: both;
+}
+.header div .login a {
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.header div .login .caption {
+  margin-top: 9px;
+}
+.header div .login .username,
+.header div .login .point {
+  text-align: right;
+  display: block;
+}
+.header div .login .point:hover {
+  color: #4d4d4d !important;
+}
+.header div .login .point span {
+  color: #e4af31
+}
+.header div .login .point span:hover {
+  text-decoration: underline;
+}
+.header div .cart {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.header div .cart.fill {
+  margin-top: 0;
+}
+.header div .cart.caption {
+  margin-top: 5px;
+}
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  min-height: 40px;
+  border-color: transparent;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  width: 836px;
+  margin: 0 auto;
+}
+.navbar-default,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background-color: transparent;
+}
+.navbar-nav {
+  padding: 5px 0;
+}
+section {
+  padding: 50px 0;
+}
+.navbar-nav > li > a,
+footer ul > li > a {
+  padding: 0 10px;
+  border-right: 1px solid #000;
+}
+.navbar-nav > li:first-child > a,
+footer ul > li:first-child > a {
+  padding-left: 0;
+}
+.navbar-nav > li:last-child > a,
+footer ul > li:last-child > a {
+  padding-right: 0;
+  border-right: none;
+}
+.nav > li {
+  font-size: 13px;
+}
+a:hover img {
+  opacity: .7;
+}
+footer ul > li > a {
+  color: #103a71;
+}
+footer {
+  padding: 30px 0 40px 0;
+}
+footer ul > li {
+  display: inline-block;
+}
+footer ul {
+  margin-bottom: 5px;
+}
+footer span {
+  line-height: 50px;
+}
+footer span a {
+  color: #000;
+}
+footer .col-md-3.col-sm-3.col-xs-12 {
+  text-align: right;
+}

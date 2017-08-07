@@ -1,0 +1,81 @@
+#banner {
+  padding-top: 75px;
+}
+.carousel-caption {
+  top: 22px;
+  left: 42px;
+  right: initial;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+.carousel-inner:hover .carousel-caption .dropdown-menu {
+  display: block;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-inner:hover .carousel-caption {
+  color: #4d4d4d;
+}
+.carousel-caption .dropdown .dropdown-menu {
+  top: -18px;
+  left: -18px;
+  background: rgba(255, 255, 255, 0.9);
+  padding-top: 8px;
+  border-radius: 0;
+  width: 235px;
+  height: 375px;
+}
+.carousel-caption .btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 0;
+  margin-top: -5px;
+}
+.carousel-caption .dropdown .dropdown-menu > li > h1 {
+  font-size: 18px;
+  margin: 8px 0 0 18px;
+}
+.carousel-caption .dropdown .dropdown-menu > li > img {
+  margin-left: 19px;
+}
+.carousel-caption .dropdown .dropdown-menu > li > a:focus,
+.carousel-caption .dropdown .dropdown-menu > li > a:hover {
+  color: #4d4d4d;
+  background-color: transparent;
+}
+.glyphicon-chevron-right:before,
+.glyphicon-chevron-left:before {
+  content: "";
+}
+#banner .banner-top,
+#promo .promo-top {
+  padding-bottom: 30px;
+}
+#banner .banner-bottom,
+#promo .promo-bottom {
+  padding-bottom: 50px;
+}
+#feature h1,
+#promo h1 {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #103a71;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+#feature h2 {
+  font-weight: 600;
+  color: #103a71;
+  font-size: 18px;
+}
+#feature p {
+  max-width: 225px;
+  text-align: center;
+  margin: 0 auto;
+}

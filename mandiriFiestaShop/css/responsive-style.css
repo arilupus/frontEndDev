@@ -1,0 +1,18 @@
+@media only screen and (max-device-width: 1024px) {
+	#banner .banner-top,
+	#banner .banner-top div:first-child,
+	#promo .promo-top,
+	#banner .banner-bottom,
+	#promo .promo-bottom,
+	#feature .row div,
+	#promo .promo-top div:first-child,
+	#promo .promo-bottom div:not(:last-child) {
+		padding-bottom: 15px;
+	}	
+	#banner .banner-bottom div:nth-child(2) {
+		padding: 15px;
+	}
+	#promo .promo-bottom div a img {
+		width: 100%;
+	}
+}
