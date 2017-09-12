@@ -36,14 +36,18 @@
 
 }
 
+/*iPad 10 to Desktop*/
+@media (min-width: 768px) {
+  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-form,
+  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-right {
+    display: none;
+  }
+}
+
 /*iPad*/
 @media (max-width: 768px) {
   .container {
     width: 600px;
-  }
-  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-form,
-  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-right {
-    display: block;
   }
 }
 
@@ -51,6 +55,10 @@
 @media (max-width: 600px) {
   .container {
     width: 400px;
+  }
+  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-form,
+  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-right {
+    display: block;
   }
 }
 
