@@ -1,0 +1,112 @@
+header .navbar-default {
+  min-height: initial;
+  border-radius: 0;
+  border: none;
+}
+header .header-bar.navbar-default,
+header .header-bar.navbar-default .container-fluid .navbar-collapse .navbar-form {
+  max-height: 44px;
+}
+header .header-bar.navbar-default .container-fluid .navbar-collapse .navbar-form,
+header .header-bar.navbar-default .container-fluid .navbar-collapse .navbar-nav > li > a {
+  line-height: 44px;
+}
+header .header-bar.navbar-default {
+  background-color: #1fff91;
+}
+header .header-bar.navbar-default .container-fluid .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+header .header-bar.navbar-default .container-fluid .navbar-collapse .navbar-form {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+header .header-bar.navbar-default .container-fluid .navbar-collapse .navbar-form .form-group {
+  display: block;
+}
+header .navbar-default .container-fluid .navbar-collapse .navbar-form .btn-default {
+  display: none;
+}
+header .header-bar.navbar-default .container-fluid .navbar-collapse .navbar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+header .img-logo,
+.content-section,
+.content-section .homepage-section a img,
+.content-section .homepage-section p:nth-child(2) {
+  margin-bottom: 20px;
+}
+header .site-header.navbar-default,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a:focus,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a:hover,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .open > a,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .open > a:focus,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .open > a:hover {
+  background-color: transparent;
+}
+header .site-header.navbar-default,
+.footer-section h4 {
+  border-bottom: 1px solid #1fff91;
+}
+header .site-header.navbar-default {
+  border-top: 1px solid #1fff91;
+}
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a:focus,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a:hover,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .open > a,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .open > a:focus,
+header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .open > a:hover {
+  font-weight: 600;
+}
+body > .container .content-section .row .homepage-section {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+body > .container .content-section .row:last-child .homepage-section {
+  border-bottom: 1px solid #ddd;
+}
+.content-section .homepage-section {
+  padding: 20px;
+}
+.content-section .homepage-section a,
+.footer-section .list-group .list-group-item a {
+  color: #333;
+}
+.content-section .homepage-section a:hover,
+.content-section .homepage-section a:focus,
+.footer-section .list-group .list-group-item a:hover,
+.footer-section .list-group .list-group-item a:focus {
+  text-decoration: none;
+}
+.content-section .homepage-section a:hover,
+.footer-section .list-group .list-group-item a:hover {
+  color: #585df7;
+}
+.content-section .homepage-section a:focus,
+.footer-section .list-group .list-group-item a:focus {
+  outline: none;
+}
+.content-section .homepage-section p .phone-number {
+  font-size: 24px;
+}
+.content-section .homepage-section .btn-default,
+.content-section .homepage-section .btn-default:active:focus {
+  background-color: #585df7;
+  color: #fff;
+}
+.content-section .homepage-section .btn-default {
+  font-weight: 600;
+}
+.footer-section h4 {
+  padding-bottom: 10px;
+}
+.footer-section .list-group .list-group-item {
+  border: none;
+  padding: 2px 0;
+}
