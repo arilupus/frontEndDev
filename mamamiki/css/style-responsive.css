@@ -1,8 +1,4 @@
 @media (min-width: 1280px) {
-  header .site-header.navbar-default .container-fluid .navbar-collapse {
-    display: table !important;
-    margin: 0 auto;
-  }
 }
 
 /*iPad Pro*/
@@ -38,6 +34,10 @@
 
 /*iPad 10 to Desktop*/
 @media (min-width: 768px) {
+  header .site-header.navbar-default .container-fluid .navbar-collapse {
+    display: table !important;
+    margin: 0 auto;
+  }
   header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-form,
   header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-right {
     display: none;
