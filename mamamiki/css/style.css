@@ -39,6 +39,11 @@ header .img-logo,
 .content-section .homepage-section p:nth-child(2) {
   margin-bottom: 20px;
 }
+header .site-header.navbar-default .container-fluid .navbar-header {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
 header .site-header.navbar-default,
 header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a,
 header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav > .active > a:focus,

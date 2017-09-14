@@ -1,16 +1,20 @@
+/*Laptop to Desktop*/
 @media (min-width: 1280px) {
+}
+
+/*iPad Pro to Desktop*/
+@media (min-width: 1024px) {
+  .navbar-toggle {
+    display: none;
+  }
 }
 
 /*iPad Pro*/
 @media (max-width: 1024px) {
-
 }
 
 /*Nexus 10 to Desktop*/
 @media (min-width: 800px) {
-  .container {
-    width: 600px;
-  }
   header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-form,
   header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-right {
     display: none;
@@ -19,21 +23,29 @@
 
 /*Nexus 10*/
 @media (max-width: 800px) {
-  header .site-header .container-fluid {
-    background-color: #1fff91;
-  }
   header .site-header.navbar-default .navbar-toggle {
-    border: 1px solid #888;
+    border: none;
   }
   header .site-header.navbar-default .navbar-toggle:focus,
   header .site-header.navbar-default .navbar-toggle:hover {
     background-color: transparent;
   }
-
 }
 
-/*iPad 10 to Desktop*/
+/*iPad to Desktop*/
 @media (min-width: 768px) {
+  .container,
+  header .site-header.navbar-default.navbar-fixed-bottom {
+    width: 600px;
+  }
+
+  header .site-header.navbar-default.navbar-fixed-bottom {
+    margin: 0 auto 20px auto;
+  }
+
+  header .site-header.navbar-default .container-fluid .navbar-header {
+    display: none;
+  }
   header .site-header.navbar-default .container-fluid .navbar-collapse {
     display: table !important;
     margin: 0 auto;
@@ -46,19 +58,103 @@
 
 /*iPad*/
 @media (max-width: 768px) {
-  .container {
-    width: 600px;
-  }
 }
 
 /*Nexus 7*/
 @media (max-width: 600px) {
-  .container {
-    width: 400px;
+  .caret {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .container, header .site-header.navbar-default .container-fluid .navbar-header .navbar-brand {
+    width: 80%;
+  }
+  .container,
+  header .site-header.navbar-default .container-fluid .navbar-header {
+    width: 100%;
+    display: block;
+  }
+  header .site-header .container-fluid,
+  header .site-header.navbar-default .container-fluid .navbar-header,
+  header .site-header.navbar-default.navbar-fixed-bottom .navbar-collapse {
+    background-color: #1fff91;
   }
   header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-form,
   header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-right {
     display: block;
+  }
+  header .site-header.navbar-default .container-fluid .navbar-collapse .navbar-nav:last-child {
+    padding-bottom: 52px;
+  }
+  .collapse-right-container {
+    width: 100%;
+    position: relative;
+    right: 0;
+    transition: right .4s;
+  }
+  .collapse-right-container.out {
+    right: 0;
+  }
+  header .site-header.navbar-default .container-fluid .collapse-right {
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    width: 200px;
+    position: fixed;
+    overflow: hidden;
+    transition: width .4s;
+    max-height: 100% !important;
+    padding-bottom: 50px;
+  }
+  header .site-header.navbar-default .container-fluid .collapse-right.in {
+    width: 0;
+    padding: 0;
+  }
+  header .site-header.navbar-default .container-fluid .collapse.navbar-collapse .navbar-nav li {
+    border-bottom: 1px solid #fff;
+  }
+
+  header .site-header.navbar-default .navbar-toggle .icon-bar {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .navbar-toggle.x .icon-bar:nth-of-type(2) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 10% 10%;
+    -ms-transform-origin: 10% 10%;
+    transform-origin: 10% 10%;
+  }
+  .navbar-toggle.x .icon-bar:nth-of-type(3) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .navbar-toggle.x .icon-bar:nth-of-type(4) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 10% 90%;
+    -ms-transform-origin: 10% 90%;
+    transform-origin: 10% 90%;
+  }
+  .navbar-toggle.x.collapsed .icon-bar:nth-of-type(2) {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  .navbar-toggle.x.collapsed .icon-bar:nth-of-type(3) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .navbar-toggle.x.collapsed .icon-bar:nth-of-type(4) {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  .footer-section {
+    margin-bottom: 70px;
   }
 }
 

@@ -31,19 +31,28 @@
         </div>
       </nav>
       <a href="#" title="Home"><img src="images/logo.png" alt="home" class="img-responsive center-block img-logo"></a>
-      <nav class="site-header navbar navbar-default">
+      <nav class="site-header navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+            <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse-right" data-target=".collapse-right" data-target-2=".collapse-right-container" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand" href="#" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">Area</a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav">              
+              <li><a href="#">Tanah Abang</a></li>
+              <li><a href="#">Sarinah</a></li>
+              <li><a href="#">Gondangdia</a></li>
+              <li><a href="#">Menteng</a></li>
+            </ul>
+          </div>
+          <div class="collapse-right in navbar-collapse" id="navbar-menu-right">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="#" class="active">Home <span class="sr-only">(current)</span></a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu Murah <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -86,7 +95,7 @@
       </nav>
     </div>
   </header>
-  <div class="container">
+  <div class="container collapse-right-container">
     <section class="content-section">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
